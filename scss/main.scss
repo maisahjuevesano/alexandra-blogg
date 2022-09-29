@@ -1,0 +1,53 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: none;
+}
+
+header {
+    background-color: pink;
+}
+
+main {
+    img {
+        width: 100vw;
+
+    }
+}
+
+
+.lista{
+    list-style-type: none;
+    padding: 10px;
+
+}
+
+li{
+    margin: 10px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    main {
+        img {
+            width: 500px;
+        }
+    }
+
+.card-body {
+    width: 50rem;
+}
+
+.card-img-top {
+    width: 50rem;
+}
+
+.card { 
+    border: none;
+    margin-right: 35%;
+    
+   
+}
+    
+}
